@@ -4,6 +4,7 @@ class Expense:
         self.category = category
         self.ammount = ammount
         input("enter expence name")
+print("check me")
     
 #     def get_price(self, weight_kg):
 #         return self.price_per_kg * weight_kg
