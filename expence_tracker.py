@@ -42,5 +42,3 @@ def summarize_expences():
 
 if __name__ =="__main__":
     main()
-
-print("changes")
