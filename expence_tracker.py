@@ -28,7 +28,7 @@ def get_user_expence():
         for i, category_name in enumerate(expense_category):
             print(f"{i+1}. {category_name}")
         value_range = f"[1-{len(expense_category)}]"
-        selected_index = int(input(f"enter a category number{value_range}:"))
+        selected_index = int(input(f"enter a category number{value_range}:")) -1
 
         break
 
