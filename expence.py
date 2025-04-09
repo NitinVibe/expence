@@ -3,7 +3,9 @@ class Expense:
         self.name = name
         self.category = category
         self.ammount = ammount
-        input("enter expence name")
+
+    def __repr__(self):
+        return f"<Expense: {self.name}, {self.category}, ₹{self.ammount:.2f}>"
     
 #     def get_price(self, weight_kg):
 #         return self.price_per_kg * weight_kg
